@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [sprint1]">
+  <test thread-count="5" name="homepage(failed)">
+    <groups>
+      <run>
+        <include name="sprint1"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="seleniumTestNG.Selenium_Day1_Example">
+        <methods>
+          <include name="SiteTitle"/>
+          <include name="VerifyLogo"/>
+        </methods>
+      </class> <!-- seleniumTestNG.Selenium_Day1_Example -->
+    </classes>
+  </test> <!-- homepage(failed) -->
+</suite> <!-- Failed suite [sprint1] -->

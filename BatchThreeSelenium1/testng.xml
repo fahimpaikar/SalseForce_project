@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Regression">
+	<test thread-count="5" name="Sales Force project">
+		<classes>
+			<class name="seleniumTestNG.TestNG_Day03" />
+			<class name="seleniumTestNG.TestNG_Dayy02_Priorities" />
+			<class name="seleniumTestNG.Selenium_Day1_Example" />
+			<class name="seleniumTestNG.TestNG_Day1" />
+		</classes>
+	</test> <!-- Sales Force project -->
+</suite> <!-- Regression -->

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Utilities.java&apos; to &apos;Com.POMwithPageFactory/src/com.SalesForce.Utilities&apos;&#x0D;&#x0A;- Original project: &apos;Batch03POMwithOutPageFactory&apos;&#x0D;&#x0A;- Destination element: &apos;Com.POMwithPageFactory/src/com.SalesForce.Utilities&apos;&#x0D;&#x0A;- Original element: &apos;com.salseFroce.utilities.Utilities.java&apos;" description="Copy compilation unit" destination="=Com.POMwithPageFactory/src&lt;com.SalesForce.Utilities" element1="/src&lt;com.salseFroce.utilities{Utilities.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1591229399608" units="1" version="1.0"/>
+</session>

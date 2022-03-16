@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Accounts.feature&apos; to &apos;Feature&apos;&#x0D;&#x0A;- Original project: &apos;Final-Project&apos;&#x0D;&#x0A;- Destination element: &apos;Feature&apos;&#x0D;&#x0A;- Original element: &apos;Accounts.feature&apos;" description="Copy file" element1="Feature/Accounts.feature" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1593649624206" target="/Final-Project/Feature" units="0" version="1.0"/>
+</session>

@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<?php
+echo "<h1>Fahim's Site</h1>";
+echo "<hr>";
+echo "<p>This is my site, please visit</p>";
+echo "hello world";
+$a =4;$b =56;
+echo $a*$b;
+
+
+
+
+?>
+
+
+
+
+
+
+</body>
+</html>

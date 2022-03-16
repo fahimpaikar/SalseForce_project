@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="28707" started-at="2020-06-08T22:17:33 EDT" finished-at="2020-06-08T22:18:02 EDT">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="28707" started-at="2020-06-08T22:17:33 EDT" finished-at="2020-06-08T22:18:02 EDT">
+      <class name="com.SalesFroce.TestFile.LoginTestUsingExcell">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="start" is-config="true" duration-ms="6373" started-at="2020-06-08T22:17:33 EDT" finished-at="2020-06-08T22:17:40 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="usingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="usingValidCredentials" duration-ms="1087" started-at="2020-06-08T22:17:40 EDT" data-provider="listOFCredentials" finished-at="2020-06-08T22:17:41 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[batch03@codegator.us.qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pa55word]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingValidCredentials -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="stop" is-config="true" duration-ms="599" started-at="2020-06-08T22:17:41 EDT" finished-at="2020-06-08T22:17:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="start" is-config="true" duration-ms="5724" started-at="2020-06-08T22:17:42 EDT" finished-at="2020-06-08T22:17:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="usingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="usingValidCredentials" duration-ms="6483" started-at="2020-06-08T22:17:47 EDT" data-provider="listOFCredentials" finished-at="2020-06-08T22:17:54 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[fahimpaikar@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[nothing]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingValidCredentials -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="stop" is-config="true" duration-ms="610" started-at="2020-06-08T22:17:54 EDT" finished-at="2020-06-08T22:17:54 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="start" is-config="true" duration-ms="5825" started-at="2020-06-08T22:17:54 EDT" finished-at="2020-06-08T22:18:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="usingValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="usingValidCredentials" duration-ms="1023" started-at="2020-06-08T22:18:00 EDT" data-provider="listOFCredentials" finished-at="2020-06-08T22:18:01 EDT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[batch03@codegator.us.qa]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Pa55word]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingValidCredentials -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.SalesFroce.TestFile.LoginTestUsingExcell@1f554b06]" name="stop" is-config="true" duration-ms="597" started-at="2020-06-08T22:18:01 EDT" finished-at="2020-06-08T22:18:02 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.SalesFroce.TestFile.LoginTestUsingExcell -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,35 @@
+package Kabul;
+
+public class Hospital {
+
+	public static void main(String[] args) {
+		 String x = "Fahim";
+		 String y = "Paikar";
+		 x=x+y;
+		 y = x.substring(0,(x).length()-y.length());
+		 x= x.substring(y.length());
+		 System.out.println(x);
+		 System.out.println(y);
+		 
+		 String given = "wefeqf878979797fewfewrf879797efds&^&^*^*^";
+		 String replaced = given.replaceAll("[a-zA-A]", "");
+		 int alphaChar = given.length()-replaced.length();
+		 System.out.println(alphaChar);
+		 
+		 String replaceda = given.replaceAll("[^a-zA-A]","");
+		 System.out.println(replaceda.length());
+		 String a = "Welcome to the interview with Codegator";
+		 System.out.println(a.substring(15));
+		 String [] words = a.split(" ");
+		 System.out.println(words.length);
+		 for(String string:words) {
+			 System.out.println(string);
+		 }
+		 
+		 StringBuffer sb = new StringBuffer(a);
+		 System.out.println(sb.reverse());
+		 
+
+	}
+
+}

@@ -1,0 +1,44 @@
+
+@tag1
+Scenario: As an authenticated user I should be able to login # Features/login.feature:5
+  Given I open the browser                                   # stepDefinitions.LoginPage.i_open_the_browser()
+  And I visit the application                                # stepDefinitions.LoginPage.i_visit_the_application()
+  When I enter username                                      # stepDefinitions.LoginPage.i_enter_username()
+  And I enter password                                       # stepDefinitions.LoginPage.i_enter_password()
+  And I click the login button                               # stepDefinitions.LoginPage.i_click_the_login_button()
+  Then I should see the dashboard page                       # stepDefinitions.LoginPage.i_should_see_the_dashboard_page()
+  And check more outcomes                                    # stepDefinitions.LoginPage.check_more_outcomes()
+
+Scenario: As an authenticated user I should be able to login # Features/login.feature:14
+  Given I open the browser                                   # stepDefinitions.LoginPage.i_open_the_browser()
+  And I visit the application                                # stepDefinitions.LoginPage.i_visit_the_application()
+  When I enter username                                      # stepDefinitions.LoginPage.i_enter_username()
+  And I enter password                                       # stepDefinitions.LoginPage.i_enter_password()
+  And I click the login button                               # stepDefinitions.LoginPage.i_click_the_login_button()
+  Then I should see the dashboard page                       # stepDefinitions.LoginPage.i_should_see_the_dashboard_page()
+  And check more outcomes                                    # stepDefinitions.LoginPage.check_more_outcomes()
+
+Scenario: As an authenticated user I should be able to login # Features/login.feature:23
+  Given I open the browser                                   # stepDefinitions.LoginPage.i_open_the_browser()
+  And I visit the application                                # stepDefinitions.LoginPage.i_visit_the_application()
+  When I enter username                                      # stepDefinitions.LoginPage.i_enter_username()
+  And I enter password                                       # stepDefinitions.LoginPage.i_enter_password()
+  And I click the login button                               # stepDefinitions.LoginPage.i_click_the_login_button()
+  Then I should see the dashboard page                       # stepDefinitions.LoginPage.i_should_see_the_dashboard_page()
+  And check more outcomes                                    # stepDefinitions.LoginPage.check_more_outcomes()
+
+Scenario: As an authenticated user I should be able to login # Features/login.feature:32
+  Given I open the browser                                   # stepDefinitions.LoginPage.i_open_the_browser()
+  And I visit the application                                # stepDefinitions.LoginPage.i_visit_the_application()
+  When I enter username                                      # stepDefinitions.LoginPage.i_enter_username()
+  And I enter password                                       # stepDefinitions.LoginPage.i_enter_password()
+  And I click the login button                               # stepDefinitions.LoginPage.i_click_the_login_button()
+  Then I should see the dashboard page                       # stepDefinitions.LoginPage.i_should_see_the_dashboard_page()
+  And I should not check more outcomes                       # stepDefinitions.LoginPage.i_should_not_check_more_outcomes()
+      java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.LoginPage.i_should_not_check_more_outcomes(LoginPage.java:45)
+	at ✽.I should not check more outcomes(file:///C:/Users/fahim/eclipse-workspace/com.codegator.cucumber2/Features/login.feature:39)
+
