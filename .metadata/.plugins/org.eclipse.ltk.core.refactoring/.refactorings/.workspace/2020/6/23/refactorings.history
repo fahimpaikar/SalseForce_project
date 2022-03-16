@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename Java project &apos;Batch03POM&apos; to &apos;Batch03POMwithOutPageFactory&apos;&#x0D;&#x0A;- Original element: &apos;Batch03POM&apos;&#x0D;&#x0A;- Renamed element: &apos;Batch03POM&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename Java project &apos;Batch03POM&apos;" flags="7" id="org.eclipse.jdt.ui.rename.java.project" input="=Batch03POM" name="Batch03POMwithOutPageFactory" references="true" stamp="1591228391829" version="1.0"/>
+</session>

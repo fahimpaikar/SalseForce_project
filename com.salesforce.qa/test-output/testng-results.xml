@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="16710" started-at="2020-06-23T20:21:44 EDT" finished-at="2020-06-23T20:22:00 EDT">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="16710" started-at="2020-06-23T20:21:44 EDT" finished-at="2020-06-23T20:22:00 EDT">
+      <class name="com.SalesFroce.TestFile.LoginTest2">
+        <test-method status="PASS" signature="start()[pri:0, instance:com.SalesFroce.TestFile.LoginTest2@5d76b067]" name="start" is-config="true" duration-ms="6735" started-at="2020-06-23T20:21:44 EDT" finished-at="2020-06-23T20:21:50 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="invalidCredentials()[pri:0, instance:com.SalesFroce.TestFile.LoginTest2@5d76b067]" name="invalidCredentials" duration-ms="314" started-at="2020-06-23T20:21:50 EDT" finished-at="2020-06-23T20:21:51 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- invalidCredentials -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.SalesFroce.TestFile.LoginTest2@5d76b067]" name="stop" is-config="true" duration-ms="768" started-at="2020-06-23T20:21:51 EDT" finished-at="2020-06-23T20:21:52 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+        <test-method status="PASS" signature="start()[pri:0, instance:com.SalesFroce.TestFile.LoginTest2@5d76b067]" name="start" is-config="true" duration-ms="7330" started-at="2020-06-23T20:21:52 EDT" finished-at="2020-06-23T20:21:59 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="usingValidCredentials()[pri:0, instance:com.SalesFroce.TestFile.LoginTest2@5d76b067]" name="usingValidCredentials" duration-ms="919" started-at="2020-06-23T20:21:59 EDT" finished-at="2020-06-23T20:22:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- usingValidCredentials -->
+        <test-method status="PASS" signature="stop()[pri:0, instance:com.SalesFroce.TestFile.LoginTest2@5d76b067]" name="stop" is-config="true" duration-ms="606" started-at="2020-06-23T20:22:00 EDT" finished-at="2020-06-23T20:22:00 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stop -->
+      </class> <!-- com.SalesFroce.TestFile.LoginTest2 -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

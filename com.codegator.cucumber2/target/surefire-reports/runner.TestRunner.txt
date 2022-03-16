@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.907 sec <<< FAILURE! - in runner.TestRunner
+As an authenticated user I should be able to login #4(Test the login functionality)  Time elapsed: 0.016 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at stepDefinitions.LoginPage.i_should_not_check_more_outcomes(LoginPage.java:45)
+	at ?.I should not check more outcomes(file:///C:/Users/fahim/eclipse-workspace/com.codegator.cucumber2/Features/login.feature:39)
+

@@ -1,0 +1,108 @@
+  package seleniumBasic;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.Select;
+
+public class Selenium01_Assignment {
+
+	public static void main(String[] args) throws InterruptedException {
+
+		System.setProperty("webdriver.chrome.driver",
+				"C:\\Users\\fahim\\OneDrive\\Documents\\Selenium\\chromedriver_win32 - Copy\\chromedriver.exe");
+		WebDriver driver = new ChromeDriver();
+		driver.get("http://qa.ibextechnologies.us/d8site/");
+		driver.manage().window().maximize();// this method maximizes the window.
+		driver.findElement(By.linkText("Log in")).click();
+		Thread.sleep(2000); // it will wait for 5 seconds before entering the userName and password
+		driver.findElement(By.xpath("//section/div/form/div/input[@id='edit-name']")).sendKeys("fahimpaikar");
+		driver.findElement(By.xpath("//section/div/form/div/input[@name='pass']")).sendKeys("Welcome1@2020");
+		driver.findElement(By.id("edit-submit")).click();
+		driver.findElement(By.xpath("//nav/div[2]/div/nav/div/ul/li/a")).click();
+		driver.findElement(By.linkText("Add content")).click();
+		driver.findElement(By.xpath("//section/div/dl/dt[2]/a")).click();
+		driver.findElement(By.name("title[0][value]")).sendKeys("SELENIUM BASICS!!");
+		driver.findElement(By.name("body[0][summary]")).sendKeys("This text should go in the summary");
+		driver.manage().timeouts().wait();
+        driver.switchTo().frame(0).findElement(By.xpath("/html/body")).sendKeys("This text should be visible in description feild.");
+        driver.switchTo().defaultContent();
+
+		driver.findElement(By.id("edit-field-event-type-514")).click();
+		driver.findElement(By.name("field_start_date[0][value][year]")).click();
+		WebElement yearField = driver.findElement(By.name("field_start_date[0][value][year]"));
+		Select year = new Select(yearField);
+		year.selectByValue("2019");
+		WebElement monthfield = driver.findElement(By.name("field_start_date[0][value][month]"));
+		driver.findElement(By.name("field_start_date[0][value][month]")).click();
+		Select month = new Select(monthfield);
+		month.selectByVisibleText("Mar");
+
+		driver.findElement(By.name("field_start_date[0][value][day]")).click();
+		WebElement dayField = driver.findElement(By.name("field_start_date[0][value][day]"));
+
+		Select day = new Select(dayField);
+		day.selectByIndex(01);
+		WebElement hourField = driver.findElement(By.name("field_start_date[0][value][hour]"));
+		hourField.click();
+		Select hour = new Select(hourField);
+		hour.selectByIndex(9);
+
+		WebElement minute = driver.findElement(By.name("field_start_date[0][value][minute]"));
+		minute.click();
+		Select min = new Select(minute);
+		min.selectByVisibleText("00");
+
+		WebElement time = driver.findElement(By.name("field_start_date[0][value][ampm]"));
+		time.click();
+		Select ampm = new Select(time);
+		ampm.selectByVisibleText("pm");
+
+		WebElement endYear = driver.findElement(By.name("field_end_date[0][value][year]"));
+		endYear.click();
+		Select eYear = new Select(endYear);
+		eYear.selectByVisibleText("2020");
+
+		WebElement endMonth = driver.findElement(By.name("field_end_date[0][value][month]"));
+		endMonth.click();
+		Select eMonth = new Select(endMonth);
+		eMonth.selectByIndex(8);
+
+		WebElement endDay = driver.findElement(By.name("field_end_date[0][value][day]"));
+		endDay.click();
+		Select eDay = new Select(endDay);
+		eDay.selectByVisibleText("15");
+
+		WebElement endHour = driver.findElement(By.name("field_end_date[0][value][hour]"));
+		endHour.click();
+		Select eHour = new Select(endHour);
+		eHour.selectByVisibleText("4");
+
+		WebElement endMinute = driver.findElement(By.name("field_end_date[0][value][minute]"));
+		endMinute.click();
+		Select eMinute = new Select(endMinute);
+		eMinute.selectByVisibleText("45");
+
+		WebElement eAmPm = driver.findElement(By.name("field_end_date[0][value][ampm]"));
+		eAmPm.click();
+		Select eAmpm = new Select(eAmPm);
+		eAmpm.selectByVisibleText("am");
+
+		WebElement location = driver.findElement(By.name("field_location[0][value]"));
+		location.sendKeys("Richmond, VA");
+
+		WebElement save = driver.findElement(By.name("moderation_state[0][state]"));
+		save.click();
+
+		Select saveAs = new Select(save);
+		saveAs.selectByValue("published");
+		
+		driver.findElement(By.cssSelector("button[name='op']")).click();
+
+		System.out.println(driver.getCurrentUrl());
+		driver.close();
+
+	}
+
+}

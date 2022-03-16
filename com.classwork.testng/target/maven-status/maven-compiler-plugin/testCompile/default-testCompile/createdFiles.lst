@@ -1,0 +1,3 @@
+com\classwork\testng\pages\OpportunitiesPage.class
+com\classwork\testng\utilities\Utilities.class
+com\classwork\testfile\OpportunitiesTest.class
